@@ -304,6 +304,7 @@ void DoGameChecks()
 	// Now, go ahead and start doing the checks
 	while (true)
 	{
+		player = PLAYER::PLAYER_ID();
 		// If the user enters the "rpreload" cheat, reload the configuration
 		if (MISC::HAS_CHEAT_STRING_JUST_BEEN_ENTERED_(cheatReload))
 		{
